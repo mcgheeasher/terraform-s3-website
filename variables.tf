@@ -7,5 +7,5 @@ variable "aws_region" {
 variable "website_index" {
   description = "Path to index.html"
   type        = string
-  default     = "${path.module}/website/index.html"
+  default     = "./website/index.html"
 }
